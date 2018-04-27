@@ -8,6 +8,7 @@ notifications:
 node_js:
   - '7'
   - '6'
+  - '10'
 after_success:
   - yarn semantic-release
 branches:
